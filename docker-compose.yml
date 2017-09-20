@@ -1,0 +1,6 @@
+rabbitmq:
+  image: rabbitmq:3.6.10-alpine
+  ports:
+    - "5672:5672"
+  environment:
+    - "RABBITMQ_SERVER_START_ARGS=-rabbit loopback_users []"
