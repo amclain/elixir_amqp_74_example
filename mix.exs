@@ -31,7 +31,7 @@ defmodule ElixirAmqp74Example.Mixfile do
       # Current release fails the dialyzer; tests pass showing code is valid.
       {:amqp, "0.3.0"},
       # Fork with the updated typespec passes the dialyzer and tests.
-      # {:amqp, git: "https://github.com/amclain/amqp.git", ref: "33bf97f"},
+      # {:amqp, git: "https://github.com/amclain/amqp.git", ref: "e2673df"},
       {:dialyxir, "0.5.1", only: :dev},
       {:espec, "1.4.6", only: :test},
     ]
